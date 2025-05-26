@@ -29,7 +29,7 @@ const ActivitiesSection = () => {
       description: 'Aide à la compréhension des concepts d\'électricité pour les étudiants de première année pour le cours d\'Electricité 2',
       heures: 10,
       periode: 'Fev 2024 - Juin 2024',
-      type: 'Bénévolat',
+      type: 'Electricité',
       preuves: [
         { id: '1', type: 'photo', name: 'Session de tutorat 1.jpg', url: '/placeholder.svg' },
       ]
@@ -49,7 +49,7 @@ const ActivitiesSection = () => {
       description: '100e+ place en équipe.',
       heures: 10,
       periode: 'Mars 2023',
-      type: 'Capture the Flag',
+      type: 'CTF',
       preuves: []
     },
     {
@@ -58,7 +58,7 @@ const ActivitiesSection = () => {
       description: '77e place en equipe',
       heures: 10,
       periode: 'Mars 2024',
-      type: 'Capture the Flag',
+      type: 'CTF',
       preuves: []
     },
     {
@@ -67,7 +67,7 @@ const ActivitiesSection = () => {
       description: '180e place en equipe',
       heures: 10,
       periode: 'Mars 2025',
-      type: 'Capture the Flag',
+      type: 'CTF',
       preuves: []
     },
     {
