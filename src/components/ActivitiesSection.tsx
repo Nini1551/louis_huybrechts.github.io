@@ -87,6 +87,51 @@ const ActivitiesSection = () => {
       periode: 'Oct 2024',
       type: 'Hackaton',
       preuves: []
+    },
+    {
+      id: '8',
+      nom: 'CTF EPHEC 2024',
+      description: 'Equipe Holle_Werld au CTF organisé par l\'EPHEC',
+      heures: 1,
+      periode: 'Mars 2024',
+      type: 'CTF',
+      preuves: []
+    },
+    {
+      id: '9',
+      nom: 'Soirée Fix IT 205',
+      description: 'Participation à la soirée Fix IT 205, un événement de réseautage pour les étudiants en informatique',
+      heures: 4,
+      periode: 'Mars 2025',
+      type: 'Hardware',
+      preuves: []
+    },
+    {
+      id: '10',
+      nom: 'Computer Crime Unit de la Police Judiciaire de Charleroi',
+      description: 'Participation à la conférence de la Computer Crime Unit de la Police Judiciaire de Charleroi, axée sur la cybersécurité et les enquêtes numériques',
+      heures: 2,
+      periode: 'Oct 2024',
+      type: 'Séminaire',
+      preuves: []
+    },
+    {
+      id: '11',
+      nom: 'Conférence Axentys',
+      description: 'Participation à la conférence Axentys, axée sur la présentation de l\'entreprise et d\'un stage',
+      heures: 1,
+      periode: 'Oct 2024',
+      type: 'Séminaire',
+      preuves: []
+    },
+    {
+      id: '12',
+      nom: 'Activités Open Lab : y a quoi dans un PC ?',
+      description: 'Participation à l\'activité Open Lab "Y a quoi dans un PC ?", une session interactive pour découvrir les composants d\'un ordinateur',
+      heures: 1,
+      periode: 'Avril 2023',
+      type: 'Hardware',
+      preuves: []
     }
   ];
 
