@@ -22,7 +22,73 @@ const ActivitiesSection = () => {
   const [selectedActivity, setSelectedActivity] = useState<Activity | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const activites: Activity[] = [];
+  const activites: Activity[] = [
+    {
+      id: '1',
+      nom: 'Tutorat en Electricité',
+      description: 'Aide à la compréhension des concepts d\'électricité pour les étudiants de première année pour le cours d\'Electricité 2',
+      heures: 10,
+      periode: 'Fev 2024 - Juin 2024',
+      type: 'Bénévolat',
+      preuves: [
+        { id: '1', type: 'photo', name: 'Session de tutorat 1.jpg', url: '/placeholder.svg' },
+      ]
+    },
+    {
+      id: '2',
+      nom: 'Secrétaire de l\'Association des Etudiants de l\'EPHEC',
+      description: 'Gestion des activités et des communications de l\'association étudiante',
+      heures: 10,
+      periode: 'Sept 2024 - Mars 2025',
+      type: 'Soft Skills',
+      preuves: []
+    },
+    {
+      id: '3',
+      nom: 'Cyber Security Challenge 2023',
+      description: '100e+ place en équipe.',
+      heures: 10,
+      periode: 'Mars 2023',
+      type: 'Capture the Flag',
+      preuves: []
+    },
+    {
+      id: '4',
+      nom: 'Cyber Security Challenge 2024',
+      description: '77e place en equipe',
+      heures: 10,
+      periode: 'Mars 2024',
+      type: 'Capture the Flag',
+      preuves: []
+    },
+    {
+      id: '5',
+      nom: 'Cyber Security Challenge 2025',
+      description: '180e place en equipe',
+      heures: 10,
+      periode: 'Mars 2025',
+      type: 'Capture the Flag',
+      preuves: []
+    },
+    {
+      id: '6',
+      nom: 'Hackaton EPHEC 2022',
+      description: '3e place au 2nd hackaton organisé par l\'EPHEC concernant le développement durable',
+      heures: 10,
+      periode: 'Oct 2022',
+      type: 'Hackaton',
+      preuves: []
+    },
+    {
+      id: '7',
+      nom: 'Hackaton EPHEC 2024',
+      description: 'Prix du jury au 4e hackaton organisé par l\'EPHEC concernant la réutilisation d\'appareils défecteuux',
+      heures: 10,
+      periode: 'Oct 2024',
+      type: 'Hackaton',
+      preuves: []
+    }
+  ];
 
   const totalHeures = activites.reduce((sum, activite) => sum + activite.heures, 0);
 
