@@ -5,41 +5,36 @@ import { GraduationCap, Briefcase, Award, Code } from 'lucide-react';
 const CVSection = () => {
   const formations = [
     {
-      titre: "Master en Informatique",
-      etablissement: "Université de Paris",
-      periode: "2023 - 2025",
-      description: "Spécialisation en développement web et intelligence artificielle"
-    },
-    {
-      titre: "Licence Informatique",
-      etablissement: "Université de Lyon",
-      periode: "2020 - 2023",
-      description: "Formation généraliste en informatique avec mention Bien"
+      titre: "Bachelier professionnalisant en Technologies de l'Informatique",
+      etablissement: "EPHEC",
+      periode: "2022 - 2025 [En Cours]",
+      description: ""
     }
   ];
 
   const experiences = [
     {
-      poste: "Développeur Frontend (Stage)",
-      entreprise: "TechCorp",
-      periode: "Été 2023",
-      description: "Développement d'interfaces utilisateur en React et TypeScript"
+      poste: "Secrétaire de l'Association des Etudiants de l'EPHEC",
+      entreprise: "ADEE",
+      periode: "2024 - 2025",
+      description: "Administration et gestion des activités étudiantes"
     },
     {
-      poste: "Assistant de recherche",
-      entreprise: "Laboratoire Universitaire",
-      periode: "2022 - 2023",
-      description: "Recherche sur les algorithmes d'apprentissage automatique"
+      poste: "Président de la Commission OXFAM de l'Athénée Royal Paul Delvaux implantation Lauzelle",
+      entreprise: "Athénée Royal Paul Delvaux implantation Lauzelle",
+      periode: "2012-2018",
+      description: "Gestion de projets humanitaires et sensibilisation aux enjeux sociaux"
     }
   ];
 
   const competences = [
-    { nom: "JavaScript/TypeScript", niveau: 90 },
-    { nom: "React", niveau: 85 },
-    { nom: "Python", niveau: 80 },
+    { nom: "JavaScript/TypeScript", niveau: 70 },
+    { nom: "React", niveau: 40 },
+    { nom: "Angular", niveau: 60 },
+    { nom: "Python", niveau: 50 },
     { nom: "Node.js", niveau: 75 },
-    { nom: "Bases de données", niveau: 70 },
-    { nom: "Git/GitHub", niveau: 85 }
+    { nom: "SQL", niveau: 70 },
+    { nom: "Git/GitHub", niveau: 65 }
   ];
 
   return (

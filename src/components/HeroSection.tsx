@@ -11,25 +11,25 @@ const HeroSection = () => {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Bonjour, je suis
-                <span className="block text-blue-600">Votre Nom</span>
+                <span className="block text-blue-600">HUYBRECHTS Louis</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Étudiant passionné avec de nombreuses expériences extra-scolaires enrichissantes
+                Étudiant passionné en technologies de l'informatique avec de nombreuses expériences extra-scolaires enrichissantes
               </p>
             </div>
 
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-600">
                 <MapPin size={20} className="text-blue-600" />
-                <span>Votre ville, France</span>
+                <span>1348 Ottignies-Louvain-la-Neuve, Belgique</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-600">
                 <Mail size={20} className="text-blue-600" />
-                <span>votre.email@exemple.com</span>
+                <span>loui.huybrechts@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-600">
                 <Phone size={20} className="text-blue-600" />
-                <span>+33 1 23 45 67 89</span>
+                <span>+32 483 59 87 95</span>
               </div>
             </div>
 

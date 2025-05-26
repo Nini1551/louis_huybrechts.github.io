@@ -21,18 +21,18 @@ const Index = () => {
             N'hésitez pas à me contacter pour toute opportunité ou question
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="mailto:votre.email@exemple.com" className="text-blue-400 hover:text-blue-300 transition-colors">
+            <a href="mailto:loui.huybrechts@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors">
               Email
             </a>
-            <a href="tel:+33123456789" className="text-blue-400 hover:text-blue-300 transition-colors">
+            <a href="tel:+32483598795" className="text-blue-400 hover:text-blue-300 transition-colors">
               Téléphone
             </a>
-            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+            <a href="https://www.linkedin.com/in/louis-huybrechts-a6839633b/" className="text-blue-400 hover:text-blue-300 transition-colors">
               LinkedIn
             </a>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800">
-            <p className="text-gray-500">© 2024 Mon Portfolio. Tous droits réservés.</p>
+            <p className="text-gray-500">© 2022-2025 Mon Portfolio. Tous droits réservés.</p>
           </div>
         </div>
       </footer>
