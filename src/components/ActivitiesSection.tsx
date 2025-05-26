@@ -31,8 +31,7 @@ const ActivitiesSection = () => {
       periode: 'Fev 2024 - Juin 2024',
       type: 'Electricité',
       preuves: [
-        { id: '1', type: 'photo', name: 'Session de tutorat 1.jpg', url: '/placeholder.svg' },
-      ]
+    ]
     },
     {
       id: '2',
@@ -41,7 +40,9 @@ const ActivitiesSection = () => {
       heures: 10,
       periode: 'Sept 2024 - Mars 2025',
       type: 'Soft Skills',
-      preuves: []
+      preuves: [
+        { id: '1', type: 'photo', name: 'adee.png', url: 'https://drive.google.com/drive/u/0/folders/1NDk5BwLeTc1Y8SMNzYO8fRUZnV93F1UN' }
+      ]
     },
     {
       id: '3',
