@@ -41,35 +41,41 @@ const ActivitiesSection = () => {
       periode: 'Sept 2024 - Mars 2025',
       type: 'Soft Skills',
       preuves: [
-        { id: '1', type: 'photo', name: 'adee.png', url: 'https://drive.google.com/drive/u/0/folders/1NDk5BwLeTc1Y8SMNzYO8fRUZnV93F1UN' }
+        { id: '1', type: 'photo', name: 'adee.png', url: 'https://i.ibb.co/Mxj4XFFt/adee.png' }
       ]
     },
     {
       id: '3',
       nom: 'Cyber Security Challenge 2023',
-      description: '100e+ place en équipe.',
+      description: '130e place en équipe avec les "Jalapen0s".',
       heures: 10,
       periode: 'Mars 2023',
       type: 'CTF',
-      preuves: []
+      preuves: [
+        { id: '2', type: 'photo', name: 'csc2023.png', url: 'https://i.ibb.co/MkV0b8vY/csc2023.png' }
+      ]
     },
     {
       id: '4',
       nom: 'Cyber Security Challenge 2024',
-      description: '77e place en equipe',
+      description: '77e place en equipe avec les "Bits Busters"',
       heures: 10,
       periode: 'Mars 2024',
       type: 'CTF',
-      preuves: []
+      preuves: [
+        { id: '3', type: 'photo', name: 'csc2024.png', url: 'https://i.ibb.co/s8M5Mww/csc2024.png' }
+      ]
     },
     {
       id: '5',
-      nom: 'Cyber Security Challenge 2025',
+      nom: 'Cyber Security Challenge 2025 avec les "Team RXPlose"',
       description: '180e place en equipe',
       heures: 10,
       periode: 'Mars 2025',
       type: 'CTF',
-      preuves: []
+      preuves: [
+        { id: '4', type: 'photo', name: 'csc2025.png', url: 'https://i.ibb.co/XrL5HJpf/csc2025.png' }
+      ]
     },
     {
       id: '6',
