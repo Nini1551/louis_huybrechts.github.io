@@ -32,19 +32,6 @@ const HeroSection = () => {
                 <span>+32 483 59 87 95</span>
               </div>
             </div>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-2">
-                <Download size={20} />
-                <span>Télécharger mon CV</span>
-              </button>
-              <button 
-                onClick={() => document.getElementById('activites')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors"
-              >
-                Voir mes activités
-              </button>
-            </div>
           </div>
 
           <div className="flex justify-center">

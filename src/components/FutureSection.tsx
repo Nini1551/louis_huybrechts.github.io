@@ -7,22 +7,12 @@ const FutureSection = () => {
     {
       icon: <Target className="text-blue-600" size={32} />,
       titre: "Objectifs Professionnels",
-      description: "Me spécialiser dans le développement web full-stack et acquérir une expertise en cybersécurité pour contribuer à des projets innovants dans le domaine technologique."
-    },
-    {
-      icon: <Lightbulb className="text-blue-600" size={32} />,
-      titre: "Projets d'Étude",
-      description: "Approfondir mes connaissances en intelligence artificielle et machine learning, tout en développant des compétences en gestion de projet et leadership d'équipe."
-    },
-    {
-      icon: <Rocket className="text-blue-600" size={32} />,
-      titre: "Ambitions à Long Terme",
-      description: "Créer ma propre startup technologique axée sur des solutions durables et socialement responsables, en combinant innovation technique et impact positif."
+      description: "Je souhaite principalement me faire des expériences professionnelles. Je souhaite apprendre et pouvoir toucher un peu à tout. J'ai besoin d'une pause dans mes études et pouvoir accomplir des ambitions professionnelles propres."
     },
     {
       icon: <Users className="text-blue-600" size={32} />,
       titre: "Engagement Associatif",
-      description: "Continuer à m'investir dans des associations étudiantes et des projets humanitaires, en utilisant mes compétences techniques pour soutenir des causes importantes."
+      description: "Je souhaite m'engager dans des projets associatifs à petite échelle comme des projets de bénévolat ou des initiatives locales. Je crois que chaque petite action compte et peut avoir un impact positif sur la communauté entre autres dans le domaine de l'informatique."
     }
   ];
 
@@ -61,10 +51,7 @@ const FutureSection = () => {
           <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Ma Vision</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              "Je souhaite devenir un professionnel polyvalent et engagé, capable de concilier excellence technique 
-              et responsabilité sociale. Mon objectif est de contribuer à un monde plus connecté et durable à travers 
-              l'innovation technologique, tout en gardant un esprit collaboratif et une approche humaine dans tous 
-              mes projets."
+              "Je souhaite simplement avancer dans la vie, apprendre de nouvelles choses et m'améliorer chaque jour. Je crois que chaque expérience, qu'elle soit petite ou grande, contribue à notre croissance personnelle et professionnelle. Mon objectif est de rester curieux, ouvert d'esprit et prêt à relever de nouveaux défis."
             </p>
             <div className="mt-6 flex justify-center">
               <div className="bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-medium">
