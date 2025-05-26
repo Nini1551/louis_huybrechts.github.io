@@ -89,69 +89,6 @@ const ActivitiesSection = () => {
       preuves: []
     }
   ];
-  const activites: Activity[] = [
-    {
-      id: '1',
-      nom: 'Tutorat en Mathématiques',
-      description: 'Aide aux devoirs pour des élèves de collège',
-      heures: 45,
-      periode: 'Sept 2023 - Déc 2023',
-      type: 'Bénévolat',
-      preuves: [
-        { id: '1', type: 'photo', name: 'Session de tutorat 1.jpg', url: '/placeholder.svg' },
-        { id: '2', type: 'pdf', name: 'Attestation bénévolat.pdf', url: '/placeholder.svg' }
-      ]
-    },
-    {
-      id: '2',
-      nom: 'Organisation Événement Étudiant',
-      description: 'Coordination de la journée d\'accueil des nouveaux étudiants',
-      heures: 30,
-      periode: 'Août 2023',
-      type: 'Responsabilité',
-      preuves: [
-        { id: '3', type: 'photo', name: 'Équipe organisation.jpg', url: '/placeholder.svg' },
-        { id: '4', type: 'photo', name: 'Événement en cours.jpg', url: '/placeholder.svg' }
-      ]
-    },
-    {
-      id: '3',
-      nom: 'Formation Premiers Secours',
-      description: 'Formation PSC1 avec mise en pratique',
-      heures: 8,
-      periode: 'Juin 2023',
-      type: 'Formation',
-      preuves: [
-        { id: '5', type: 'pdf', name: 'Certificat PSC1.pdf', url: '/placeholder.svg' }
-      ]
-    },
-    {
-      id: '4',
-      nom: 'Club de Débat',
-      description: 'Participation active aux débats et concours universitaires',
-      heures: 60,
-      periode: 'Sept 2022 - Juin 2023',
-      type: 'Club',
-      preuves: [
-        { id: '6', type: 'photo', name: 'Concours débat.jpg', url: '/placeholder.svg' },
-        { id: '7', type: 'pdf', name: 'Classement concours.pdf', url: '/placeholder.svg' }
-      ]
-    },
-    {
-      id: '5',
-      nom: 'Mission Humanitaire',
-      description: 'Aide à la construction d\'une école au Sénégal',
-      heures: 120,
-      periode: 'Juillet 2022',
-      type: 'Humanitaire',
-      preuves: [
-        { id: '8', type: 'photo', name: 'Construction école 1.jpg', url: '/placeholder.svg' },
-        { id: '9', type: 'photo', name: 'Construction école 2.jpg', url: '/placeholder.svg' },
-        { id: '10', type: 'pdf', name: 'Rapport mission.pdf', url: '/placeholder.svg' }
-      ]
-    }
-  ];
-
   const totalHeures = activites.reduce((sum, activite) => sum + activite.heures, 0);
 
   const openProofModal = (activity: Activity) => {
