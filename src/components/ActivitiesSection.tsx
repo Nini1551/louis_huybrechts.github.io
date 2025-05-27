@@ -24,16 +24,6 @@ const ActivitiesSection = () => {
 
   const activites: Activity[] = [
     {
-      id: '1',
-      nom: 'Tutorat en Electricité',
-      description: 'Aide à la compréhension des concepts d\'électricité pour les étudiants de première année pour le cours d\'Electricité 2',
-      heures: 10,
-      periode: 'Fev 2024 - Juin 2024',
-      type: 'Electricité',
-      preuves: [
-    ]
-    },
-    {
       id: '2',
       nom: 'Secrétaire de l\'Association des Etudiants de l\'EPHEC',
       description: 'Gestion des activités et des communications de l\'association étudiante',
@@ -52,7 +42,8 @@ const ActivitiesSection = () => {
       periode: 'Mars 2023',
       type: 'CTF',
       preuves: [
-        { id: '2', type: 'photo', name: 'csc2023.png', url: 'https://i.ibb.co/MkV0b8vY/csc2023.png' }
+        { id: '2', type: 'photo', name: 'csc2023.png', url: 'https://i.ibb.co/MkV0b8vY/csc2023.png' },
+        { id: '11', type: 'photo', name: 'csc2023-team.jpg', url: 'https://i.ibb.co/k66VTMNY/csc2023-team.jpg' }
       ]
     },
     {
@@ -93,7 +84,9 @@ const ActivitiesSection = () => {
       heures: 10,
       periode: 'Oct 2024',
       type: 'Hackaton',
-      preuves: []
+      preuves: [
+        { id: '10', type: 'photo', name: 'hackaton_2024.jpg', url: 'https://i.ibb.co/TBzYyLR9/hackaton2024.jpg' }
+      ]
     },
     {
       id: '8',
@@ -102,7 +95,9 @@ const ActivitiesSection = () => {
       heures: 1,
       periode: 'Mars 2024',
       type: 'CTF',
-      preuves: []
+      preuves: [
+        { id: '7', type: 'photo', name: 'ctf_ephec.png', url: 'https://i.ibb.co/BV66XJ3V/ctf-ephec.png' }
+      ]
     },
     {
       id: '9',
@@ -120,7 +115,9 @@ const ActivitiesSection = () => {
       heures: 2,
       periode: 'Oct 2024',
       type: 'Séminaire',
-      preuves: []
+      preuves: [
+        { id: '5', type: 'photo', name: 'crime_unit.png', url: 'https://i.ibb.co/6RfZ3Prb/COmputer-Crime-Unit.png' }
+      ]
     },
     {
       id: '11',
@@ -129,7 +126,9 @@ const ActivitiesSection = () => {
       heures: 1,
       periode: 'Oct 2024',
       type: 'Séminaire',
-      preuves: []
+      preuves: [
+        { id: '6', type: 'photo', name: 'axentys.png', url: 'https://i.ibb.co/twm5Nsw6/axentys.png' }
+      ]
     },
     {
       id: '12',
@@ -138,7 +137,20 @@ const ActivitiesSection = () => {
       heures: 1,
       periode: 'Avril 2023',
       type: 'Hardware',
-      preuves: []
+      preuves: [
+        { id: '8', type: 'photo', name: 'in_pcc.png', url: 'https://i.ibb.co/prfPR9xS/in-pc.png' }
+      ]
+    },
+    {
+      id: '13',
+      nom: 'Linux Install Party du Kot-Linux',
+      description: 'Installation d\'un dual-boot Linux sur un ordinateur portable lors de la Linux Install Party organisée par le Kot-Linux',
+      heures: 2,
+      periode: 'Fev 2023',
+      type: 'Hardware',
+      preuves: [
+        { id: '9', type: 'photo', name: 'linux_party.jpg', url: 'https://i.ibb.co/0jxMhSp4/linux-party-2022.jpg' }
+      ]
     }
   ];
 
