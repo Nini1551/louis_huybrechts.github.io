@@ -28,13 +28,13 @@ const CVSection = () => {
     {
       poste: "Accueil d'enfants en école primaire et maternelle",
       entreprise: "Ecole Communale de Beauvechain implantation de Tourinnes-la-Grosse",
-      periode: "2021-2022",
+      periode: "2021 - 2022",
       description: ""
     },
     {
       poste: "Président de la Commission OXFAM de l'Athénée Royal Paul Delvaux implantation Lauzelle",
       entreprise: "Athénée Royal Paul Delvaux implantation Lauzelle",
-      periode: "2012-2018",
+      periode: "2012 - 2018",
       description: "Gestion de projets humanitaires et sensibilisation aux enjeux sociaux"
     }
   ];

@@ -36,7 +36,7 @@ const HeroSection = () => {
               <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center overflow-hidden">
                 {/* Remplace le lien ci-dessous par celui de ton image */}
                 <img
-                  src="../../public/photoCV.jpeg"
+                  src="../assets/photoCV.jpeg"
                   alt="Portrait de HUYBRECHTS Louis"
                   className="w-full h-full object-cover"
                 />
