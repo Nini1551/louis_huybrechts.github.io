@@ -24,6 +24,15 @@ const ActivitiesSection = () => {
 
   const activites: Activity[] = [
     {
+      id: '14',
+      nom: 'Employé polyvalent chez Mac Donald\'s',
+      description: 'Travail en équipe, gestion du stress et service à la clientèle dans un environnement dynamique',
+      heures: 10,
+      periode: 'Juin 2023 - Août 2023',
+      type: 'Softs Skills',
+      preuves: []
+    },
+    {
       id: '2',
       nom: 'Secrétaire de l\'Association des Etudiants de l\'EPHEC',
       description: 'Gestion des activités et des communications de l\'association étudiante',
