@@ -13,15 +13,12 @@ const HeroSection = () => {
                 Bonjour, je suis
                 <span className="block text-blue-600">HUYBRECHTS Louis</span>
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                Étudiant passionné en technologies de l'informatique avec de nombreuses expériences extra-scolaires enrichissantes
-              </p>
             </div>
 
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-600">
                 <MapPin size={20} className="text-blue-600" />
-                <span>1348 Ottignies-Louvain-la-Neuve, Belgique</span>
+                <span>5030 Gembloux, Belgique</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-600">
                 <Mail size={20} className="text-blue-600" />
@@ -39,7 +36,7 @@ const HeroSection = () => {
               <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center overflow-hidden">
                 {/* Remplace le lien ci-dessous par celui de ton image */}
                 <img
-                  src="https://scontent.fbru2-1.fna.fbcdn.net/v/t39.30808-6/294673146_824591818508047_5062163756966266510_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=qAW2JiGaCjkQ7kNvwHKssVi&_nc_oc=Adnaa4KKJjw1_Zs5Yt8cSTu2d0X9wWc2xYK91rXJmykL8mCxT4hnrUho73pp5k7LJVDq4a4nKkgTdZ35Rg5mfYI0&_nc_zt=23&_nc_ht=scontent.fbru2-1.fna&_nc_gid=-bvJVmj62BxChGz_TPfCYg&oh=00_AfJy93RBRzayzebGAhMsg2pQIAJNhGyPGrpCsQCP0_gHzg&oe=683A024B"
+                  src="../../public/photoCV.jpeg"
                   alt="Portrait de HUYBRECHTS Louis"
                   className="w-full h-full object-cover"
                 />
