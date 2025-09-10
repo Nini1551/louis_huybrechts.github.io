@@ -39,7 +39,7 @@ const CVSection = () => {
     }
   ];
 
-  const langagesEtOutils = [
+  const langagesEtOutilsInformatiques = [
     "JavaScript/TypeScript",
     "React",
     "Angular", 
@@ -50,6 +50,11 @@ const CVSection = () => {
     "HTML/CSS",
     "MongoDB",
     "Express.js"
+  ];
+
+  const langues = [
+    "Français",
+    "Anglais"
   ];
 
   return (
@@ -96,19 +101,35 @@ const CVSection = () => {
           </div>
         </div>
 
-        {/* Langages et Outils */}
+        {/* Compétences */}
         <div className="mt-16">
           <div className="flex items-center space-x-3 mb-8">
             <Code className="text-blue-600" size={28} />
-            <h3 className="text-2xl font-bold text-gray-900">Langages et Outils</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Compétences</h3>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {langagesEtOutils.map((item, index) => (
-              <div key={index} className="bg-blue-50 p-4 rounded-lg text-center">
-                <span className="font-medium text-gray-900">{item}</span>
-              </div>
-            ))}
+          {/* Langages et Outils Informatiques */}
+          <div className="mb-10">
+            <h4 className="text-lg font-semibold text-gray-800 mb-4">Langages et Outils Informatiques</h4>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {langagesEtOutilsInformatiques.map((item, index) => (
+                <div key={index} className="bg-blue-50 border border-blue-200 p-4 rounded-lg text-center hover:bg-blue-100 transition-colors">
+                  <span className="font-medium text-blue-800">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Langues */}
+          <div>
+            <h4 className="text-lg font-semibold text-gray-800 mb-4">Langues</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {langues.map((langue, index) => (
+                <div key={index} className="bg-green-50 border border-green-200 p-4 rounded-lg text-center hover:bg-green-100 transition-colors">
+                  <span className="font-medium text-green-800">{langue}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
