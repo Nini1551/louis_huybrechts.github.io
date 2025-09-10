@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { GraduationCap, Briefcase, Award, Code } from 'lucide-react';
+import { GraduationCap, Briefcase, Code } from 'lucide-react';
 
 const CVSection = () => {
   const formations = [
@@ -8,6 +8,12 @@ const CVSection = () => {
       titre: "Bachelier professionnalisant en Technologies de l'Informatique",
       etablissement: "EPHEC",
       periode: "2022 - 2025 [En Cours]",
+      description: ""
+    },
+    {
+      titre: "Certificat d'Enseignement Secondaire Supérieur",
+      etablissement: "Athénée Royal Paul Delvaux implantation Lauzelle",
+      periode: "2012 - 2018",
       description: ""
     }
   ];
@@ -18,6 +24,12 @@ const CVSection = () => {
       entreprise: "ADEE",
       periode: "2024 - 2025",
       description: "Administration et gestion des activités étudiantes"
+    },
+    {
+      poste: "Accueil d'enfants en école primaire et maternelle",
+      entreprise: "Ecole Communale de Beauvechain implantation de Tourinnes-la-Grosse",
+      periode: "2021-2022",
+      description: ""
     },
     {
       poste: "Président de la Commission OXFAM de l'Athénée Royal Paul Delvaux implantation Lauzelle",
