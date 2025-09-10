@@ -39,14 +39,17 @@ const CVSection = () => {
     }
   ];
 
-  const competences = [
-    { nom: "JavaScript/TypeScript", niveau: 70 },
-    { nom: "React", niveau: 40 },
-    { nom: "Angular", niveau: 60 },
-    { nom: "Python", niveau: 50 },
-    { nom: "Node.js", niveau: 75 },
-    { nom: "SQL", niveau: 70 },
-    { nom: "Git/GitHub", niveau: 65 }
+  const langagesEtOutils = [
+    "JavaScript/TypeScript",
+    "React",
+    "Angular", 
+    "Python",
+    "Node.js",
+    "SQL",
+    "Git/GitHub",
+    "HTML/CSS",
+    "MongoDB",
+    "Express.js"
   ];
 
   return (
@@ -93,26 +96,17 @@ const CVSection = () => {
           </div>
         </div>
 
-        {/* Compétences */}
+        {/* Langages et Outils */}
         <div className="mt-16">
           <div className="flex items-center space-x-3 mb-8">
             <Code className="text-blue-600" size={28} />
-            <h3 className="text-2xl font-bold text-gray-900">Compétences</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Langages et Outils</h3>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {competences.map((competence, index) => (
-              <div key={index} className="space-y-2">
-                <div className="flex justify-between">
-                  <span className="font-medium text-gray-900">{competence.nom}</span>
-                  <span className="text-gray-600">{competence.niveau}%</span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-3">
-                  <div 
-                    className="bg-blue-600 h-3 rounded-full transition-all duration-1000"
-                    style={{ width: `${competence.niveau}%` }}
-                  ></div>
-                </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {langagesEtOutils.map((item, index) => (
+              <div key={index} className="bg-blue-50 p-4 rounded-lg text-center">
+                <span className="font-medium text-gray-900">{item}</span>
               </div>
             ))}
           </div>
